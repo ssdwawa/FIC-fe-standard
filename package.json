@@ -36,7 +36,7 @@
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "0.5.0",
-    "mobx": "^5.9.0",
+    "mobx": "^4.9.2",
     "mobx-react": "^5.4.3",
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
@@ -119,14 +119,14 @@
     ]
   },
   "babel": {
-	"plugins": [
-		[
-		  "@babel/plugin-proposal-decorators",
-		  {
-			"legacy": true
-		  }
-		]
-	  ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ]
+    ],
     "presets": [
       "react-app"
     ]
