@@ -1,0 +1,52 @@
+{
+  "data": {
+    "series": [
+      {
+        "data": [
+          0.0458,
+          0.0485
+        ],
+		"type": "bar",
+		"barMaxWidth":"70",
+		"stack": "总量",
+		"name": "国债AC"
+      },
+      {
+        "data": [
+          0.0990,
+          0.1227
+        ],
+		"type": "bar",
+		"barMaxWidth":"70",
+		"stack": "总量",
+		"name": "金融债AC"
+      },
+      {
+        "data": [
+          0.1304,
+          0.1049
+        ],
+		"type": "bar",
+		"barMaxWidth":"70",
+		"stack": "总量",
+		"name": "企业债AC"
+      },
+      {
+        "data": [
+          0.0900,
+          0.2234
+        ],
+		"type": "bar",
+		"barMaxWidth":"70",
+		"stack": "总量",
+		"name": "非资固收AC"
+      }
+    ],
+    "y_category": [
+      1883,
+      2185
+    ]
+  },
+  "message": "SUCCESS",
+  "ret_code": 200
+}

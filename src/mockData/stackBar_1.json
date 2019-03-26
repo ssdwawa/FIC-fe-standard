@@ -1,0 +1,57 @@
+{
+  "data": {
+    "series": [
+      {
+        "data": [
+          0.3653,
+		  0.4996,
+		  0.2
+		],
+		"type": "bar",
+		"barMaxWidth":"20",
+		"stack": "总量",
+        "name": "固收类"
+      },
+      {
+        "data": [
+          0.4156,
+		  0.3827,
+		  0.3
+		],
+		"type": "bar",
+		"barMaxWidth":"20",
+		"stack": "总量",
+        "name": "权益类"
+      },
+      {
+        "data": [
+          0.0448,
+		  0.0479,
+		  0.1
+		],
+		"type": "bar",
+		"barMaxWidth":"20",
+		"stack": "总量",
+        "name": "策略产品"
+      },
+      {
+        "data": [
+          0.1741,
+		  0.0696,
+		  0.4
+		],
+		"type": "bar",
+		"barMaxWidth":"20",
+		"stack": "总量",
+        "name": "现金"
+      }
+    ],
+    "y_category": [
+      1883,
+	  2185,
+	  "当前组合"
+    ]
+  },
+  "message": "SUCCESS",
+  "ret_code": 200
+}

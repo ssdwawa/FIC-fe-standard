@@ -1,0 +1,79 @@
+.EfficientFrontierChart-wrap {
+	.rightMenu {
+		position: absolute;
+		z-index: 5;
+		border: 0.0694vw solid #eee;
+
+	}
+
+	.time-slider {
+		margin: 0 auto;
+		width: 90vw;
+
+		.ant-slider-mark-text {
+			width: 3.8194vw;
+			display: none;
+		}
+
+		.ant-slider-handle {
+			width: 5vw;
+			height: 1.9444vw;
+			line-height: 1.7vw;
+			margin-top: -0.9028vw;
+			margin-left: -2.4306vw;
+			background-color: #DF5F20;
+			border: 0.1389vw solid #fff;
+			border-radius: 1.0417vw;
+			color: #fff;
+			text-align: center;
+			font-size: 0.8333vw;
+			-webkit-user-select: none;
+
+			-moz-user-select: none;
+
+			-ms-user-select: none;
+
+			user-select: none;
+
+			&:focus {
+				box-shadow: none;
+			}
+		}
+
+		.ant-slider:hover .ant-slider-track {
+			background-color: #F5F5F5;
+		}
+
+		.ant-slider-track {
+			background-color: #F5F5F5;
+		}
+
+		.ant-slider-dot {
+			background-color: #fff;
+			border: 0.1389vw solid #E3713A;
+		}
+
+		.ant-slider:hover .ant-slider-handle:not(.ant-tooltip-open) {
+			border-color: #fff;
+		}
+
+	}
+
+	.heatMap{
+		position: absolute;
+		right: 1%;
+		bottom: 19.5%;
+		width: 27.7778vw;
+		height: 34.2vw;
+		background: #000;
+		border-radius:4px;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		z-index: 8888;
+		#HeatMap{
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
